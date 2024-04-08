@@ -1,0 +1,4 @@
+enum FilterList {
+  thetimesofindia,
+  googlenews,
+}
