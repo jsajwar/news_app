@@ -113,6 +113,8 @@ class _CatergoryScreenState extends State<CatergoryScreen> {
                                         imageUrl: snapshot
                                             .data!.articles![index].urlToImage
                                             .toString(),
+                                        errorWidget: (context, url, error) =>
+                                            Icon(Icons.info),
                                         fit: BoxFit.cover,
                                         height: height * .18,
                                         width: width * .3,
